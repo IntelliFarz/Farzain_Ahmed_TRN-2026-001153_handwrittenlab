@@ -1,0 +1,11 @@
+﻿Entry,Part,Experiment / Activity,Observed Result,Conclusion / Learning
+1,Part A,Classifier comparison,KNN 0.9833; Logistic Regression 0.9694; Random Forest 0.9778,KNN led on the standard test split.
+2,Part B,Backpropagation and gradient check,Test accuracy 0.9361; max error 3.72e-11,The small error supports gradient correctness.
+3,Part C,Learning rate 0.0001,Validation 0.3889; final loss 1.888460,Learning was slow.
+4,Part C,Learning rate 0.001,Validation 0.9028; final loss 0.283861,Performance improved.
+5,Part C,Learning rate 0.01,Validation 0.9444; final loss 0.045210,Best tested learning rate.
+6,Part C,"Learning rates 0.1, 1.0, 10.0","Validation 0.1019, 0.1019, 0.0972",Large rates performed near chance.
+7,Part D,CNN parameter and accuracy check,F=7; parameters 1536/1536; accuracy 0.9778; handwriting 0.16,Parameter counts matched.
+8,Part E,Corrected held-out evaluation,Accuracy 0.9778; bug table saved,Corrected result recorded.
+9,Part F1,Three-token attention,Token 1 most attended to token 3,Attention weights show token relationships.
+10,Part F2,Transformer sentiment test,English 0.875; Roman Urdu 0.6667,Small sample; English-focused model.

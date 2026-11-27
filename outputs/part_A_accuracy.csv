@@ -1,0 +1,4 @@
+Model,sklearn_test_accuracy,handwriting_50_accuracy
+KNN,0.9833333333333333,0.08
+Logistic Regression,0.9694444444444444,0.1
+Random Forest,0.9777777777777777,0.1

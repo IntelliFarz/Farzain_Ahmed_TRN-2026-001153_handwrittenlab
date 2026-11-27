@@ -1,0 +1,2 @@
+test_set_accuracy,handwriting_50_accuracy,stride2_conv1_size,stride2_pool_size,stride2_conv2_size
+0.9777777777777777,0.16,4,2,0
